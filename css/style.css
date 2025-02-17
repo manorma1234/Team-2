@@ -1056,6 +1056,42 @@ header {
 
 /* Main */
 
+@media only screen and (min-width:1280px) and (max-width:1600px) {
+
+    .menu a{
+        font-size: large;
+    }
+
+    .menu{
+        margin-left: 40px;
+        gap: 30px;
+    }
+
+    .temp-div{
+       display: none;
+       
+    }
+
+    .contact-left{
+        font-size: xx-large;
+    }
+
+    .contact-right{
+        margin-left: 100px;
+    }
+
+
+.menu-container{
+    font-size: 20px;
+    gap: 50px;
+}
+
+.market-header{
+    font-size: medium;
+}
+
+}
+
 @media only screen and (min-width:992px) and (max-width:1279px) {
 
     /* Navbar */
@@ -1195,7 +1231,6 @@ header {
         gap: 30px;
     }
 
-    
 
     .menu a {
         font-size: 17px;
