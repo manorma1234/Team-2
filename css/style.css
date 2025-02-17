@@ -87,7 +87,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-left: 70px;
+    /* margin-left: 70px; */
 }
 
 .menu a {
@@ -104,6 +104,7 @@ body {
 .buttons {
     display: flex;
     gap: 10px;
+    margin-left: 80px;
 }
 
 .buttons .btn {
@@ -1133,6 +1134,7 @@ header {
 
     .toggle-btn {
         display: flex;
+        flex-direction: column;
     }
 
     .navbar-brand img {
@@ -1220,6 +1222,17 @@ header {
     }
 
 
+}
+
+@media  (min-width:1024px){
+   .contact-left{
+
+    font-size: xx-large;
+   }
+    .rmv-sec{
+        display: none;
+    }
+    
 }
 
 /*Small iPad*/
@@ -1654,32 +1667,6 @@ header {
         padding-left: 20px;
     }
 
-    /* top carousel */
-    /* .carasoul-heading{
-        font-size: 20px;
-        width: 80%;
-    }
-
-    .carasoul-btn{
-        font-size: medium;
-        width: fit-content;
-        height: fit-content;
-        padding: 6px 14px;
-    }
-
-    .carasoul-left{
-        padding-left: 0px;
-    }    
-
-    .carasoul-left img{
-        width: 150px;
-    }
-
-    .slider-wrapper{
-        height: auto;
-    } */
-
-
     /* journey */
     .journey-section {
         height: auto;
@@ -1802,6 +1789,14 @@ header {
     }
 
     /* car 2 */
+
+    .article-card{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+       height: auto;
+       gap:30px
+    }
     .article-heading{
         font-size: 28px;font-weight: 700;
     
@@ -1811,6 +1806,15 @@ header {
         text-decoration: none;
         color: black;
     
+    }
+    .article-card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .article-card-heading{
+        text-align: center;
     }
 
     .car-2 {
