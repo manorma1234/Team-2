@@ -559,10 +559,14 @@ header {
     line-height: 24px;
     font-weight: 300;
     padding-left: 0;
+    padding-left: 30px;
 }
 
 .section-list li {
     padding-top: 15px;
+}
+.section-list li::marker {
+    font-size: 10px; 
 }
 
 /* Button */
